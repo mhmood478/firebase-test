@@ -6,15 +6,16 @@ import { getFirestore, collection, addDoc, getDocs }
 from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 
-// YOUR FIREBASE CONFIG HERE
+ // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyD4i0tv37z6RVaIyrEp3or3_l83hOO-dA8",
+    authDomain: "my-test-website-7954d.firebaseapp.com",
+    projectId: "my-test-website-7954d",
+    storageBucket: "my-test-website-7954d.firebasestorage.app",
+    messagingSenderId: "5359500453",
+    appId: "1:5359500453:web:f3d0c0aed10583196d214c"
+  };
 
-const firebaseConfig = {
-
-apiKey: "YOUR KEY",
-authDomain: "YOUR DOMAIN",
-projectId: "YOUR PROJECT ID"
-
-};
 
 
 const app = initializeApp(firebaseConfig);
